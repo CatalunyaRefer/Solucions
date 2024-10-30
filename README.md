@@ -1,5 +1,5 @@
 # Solucions
-
+```
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -69,3 +69,4 @@ form {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width:35%;
 }
+```
