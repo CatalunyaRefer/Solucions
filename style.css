@@ -1,0 +1,136 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+} 
+
+section {
+    display:flex;
+    width:600px;
+    height:430px;
+}
+
+section img {
+    width:0px;
+    flex-grow:1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover {
+    cursor:crosshair;
+    width: 300px;
+    opacity: 1;
+    filter:contrast(120%);
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #6b4f31;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #a89b8b;
+    margin-top: 5px;
+}
+
+/* Logo Section */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Cambiar a 'center' para centrar el contenido */
+    margin: 20px 0;
+    width: 100%; /* Asegúrate de que ocupe todo el ancho disponible */
+}
+
+.logo-container img {
+    height: 100px;
+    margin: 0; /* Eliminar el margen derecho */
+}
+
+
+/* Section Program */
+.program {
+    text-align: center;
+    margin: 20px 0;
+    color: #6b4f31;
+}
+
+.program h3 {
+    font-size: 2rem;
+}
+
+.program p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: #a89b8b;
+}
+
+/* Icon Sections */
+.icon-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los bloques */
+    justify-content: space-between; /* Asegúrate de que los íconos estén espaciados correctamente */
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.icon-box {
+    flex: 1 1 calc(50% - 20px); /* Dos columnas, con espacio entre ellas */
+    max-width: calc(50% - 20px); /* Asegura que no excedan el ancho del contenedor */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+}
+
+.icon-box img {
+    width: 60px;
+    height: 60px; /* Asegúrate de que todas las imágenes tengan el mismo tamaño */
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Styling for headings and paragraphs */
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin: 10px 0;
+    line-height: 1.5; /* Ajusta el interlineado si es necesario */
+} 
