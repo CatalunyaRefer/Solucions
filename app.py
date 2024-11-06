@@ -19,9 +19,12 @@ def home():
         sender_email = request.form['email']
         message_body = request.form['message']
 
+        # Aquí establecemos el correo de envío como el correo configurado en el servidor
+        # y usamos 'reply_to' para que el destinatario pueda responder al correo del usuario
         msg = Message("New Contact Form Submission",
-                      sender=sender_email, 
-                      recipients=['apelaezia@insjoaquimmir.cat'])
+                      sender=app.config['MAIL_USERNAME'],  # Este es el correo que se usará para enviar el mail
+                      recipients=['apelaezia@insjoaquimmir.cat'],
+                      reply_to=sender_email)  # El correo que el usuario pone es el "reply_to"
         msg.body = message_body 
 
         try:
