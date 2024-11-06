@@ -200,3 +200,38 @@ p {
     }
 }
 
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    width: 100%; /* Make sure the footer takes the full width of the page */
+    position: relative; /* Ensure it spans across the entire page */
+    left: 0;
+    right: 0;
+    bottom: 0; /* Optional, ensures footer is at the bottom */
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    text-decoration: none;
+
+    color: #fff1c5;
+}
+
+.social-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #fff1c5;
+}
+
+
