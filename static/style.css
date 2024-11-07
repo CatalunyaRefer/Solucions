@@ -7,18 +7,31 @@
 }
 
 body {
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f4f4f4;
 } 
 
+=======
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} 
+
+
+
+>>>>>>> 8c7c9655951e54eb8f2920aa8fcfdd8b180eb044
 /* Header Styling */
 header {
     text-align: center;
     margin-top: 30px;
 }
 
+<<<<<<< HEAD
 header .header-content {
     display: flex;              /* Usamos flexbox para alinear los elementos */
     justify-content: flex-start; /* El contenido se alinea al principio (a la izquierda) */
@@ -42,6 +55,8 @@ header .text-container {
     text-align: left;           /* Alineamos el texto a la izquierda */
 }
 
+=======
+>>>>>>> 8c7c9655951e54eb8f2920aa8fcfdd8b180eb044
 header h1 {
     font-size: 2.5rem;
     font-weight: bold;
@@ -56,6 +71,7 @@ header h2 {
     margin-top: 5px;
 }
 
+<<<<<<< HEAD
 /* Carrusel */
 .carousel-inner img {
     max-width: 100%;
@@ -146,6 +162,20 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #5a3f24;
+=======
+/* Logo Section */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.logo-container img {
+    height: 100px;
+    margin: 0;
+>>>>>>> 8c7c9655951e54eb8f2920aa8fcfdd8b180eb044
 }
 
 /* Section Program */
@@ -170,7 +200,11 @@ button[type="submit"]:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+<<<<<<< HEAD
     justify-content: flex-start;
+=======
+    justify-content: space-between;
+>>>>>>> 8c7c9655951e54eb8f2920aa8fcfdd8b180eb044
     padding: 20px;
     max-width: 1200px;
 }
@@ -188,10 +222,13 @@ button[type="submit"]:hover {
     text-align: justify;
 }
 
+<<<<<<< HEAD
 .icon-section.odd {
     justify-content: center;
 }
 
+=======
+>>>>>>> 8c7c9655951e54eb8f2920aa8fcfdd8b180eb044
 .icon-box img {
     width: 60px;
     height: 60px;
@@ -199,6 +236,7 @@ button[type="submit"]:hover {
     display: block;
 }
 
+<<<<<<< HEAD
 .icon-box h4 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -216,6 +254,8 @@ button[type="submit"]:hover {
     line-height: 1.5;
 }
 
+=======
+>>>>>>> 8c7c9655951e54eb8f2920aa8fcfdd8b180eb044
 /* Styling for headings and paragraphs */
 h4 {
     font-family: 'Playfair Display', serif;
@@ -268,6 +308,7 @@ p {
     .program p {
         font-size: 1rem;
     }
+<<<<<<< HEAD
 
     /* Ajustes en el formulario y la imagen */
     .contact-section {
@@ -282,6 +323,8 @@ p {
     .contact-form-container {
         max-width: 90%;
     }
+=======
+>>>>>>> 8c7c9655951e54eb8f2920aa8fcfdd8b180eb044
 }
 
 @media (max-width: 576px) {
@@ -312,6 +355,7 @@ p {
     .logo-container img {
         height: 80px;
     }
+<<<<<<< HEAD
 
     /* Ajustes en el formulario y la imagen */
     .contact-image img {
@@ -321,4 +365,66 @@ p {
     .contact-form-container {
         max-width: 100%;
     }
+=======
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    text-decoration: none;
+
+    color: #fff1c5;
+}
+
+.social-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #fff1c5;
+}
+
+.logo {
+    width:90px;
+    margin-right:50px;
+}
+
+section {
+    display: flex;
+    width:600px;
+    height:430px;
+}
+
+.nav-image {
+    width:0px;
+    flex-grow:1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 5s ease;
+}
+
+.nav-image:hover {
+    cursor:crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+>>>>>>> 8c7c9655951e54eb8f2920aa8fcfdd8b180eb044
 }
