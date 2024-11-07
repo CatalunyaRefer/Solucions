@@ -59,17 +59,21 @@ def contact():
 
         try:
             mail.send(msg)
-            flash('Your message has been sent successfully!', 'success')
+            flash('Tu mensaje se ha enviado correctamente.', 'success')
         except Exception as e:
             flash(f'Error: {str(e)}', 'error')
 
-        return redirect(url_for('contact')) 
+        return redirect(url_for('contact'))
     
     return render_template('contact.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
 
+@app.route('/donations')
+def donations():
+    return render_template('donations.html')
+    
 @app.route('/vilanova')
 def vilanova():
     return render_template('vilanova.html')

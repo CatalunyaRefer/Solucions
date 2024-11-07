@@ -14,26 +14,7 @@ body {
 
 } 
 
-section {
-    display: flex;
-    width: 600px;
-    height: 430px;
-}
 
-section img {
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: 0.8;
-    transition: 0.5s ease;
-}
-
-section img:hover {
-    cursor: crosshair;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
-}
 
 /* Header Styling */
 header {
@@ -205,11 +186,11 @@ footer {
     background-color: #333;
     color: white;
     padding: 20px 0;
-    width: 100%; /* Make sure the footer takes the full width of the page */
-    position: relative; /* Ensure it spans across the entire page */
+    width: 100%;
+    position: relative;
     left: 0;
     right: 0;
-    bottom: 0; /* Optional, ensures footer is at the bottom */
+    bottom: 0;
 }
 
 footer a {
@@ -234,4 +215,28 @@ footer a:hover {
     color: #fff1c5;
 }
 
+.logo {
+    width:90px;
+    margin-right:50px;
+}
 
+section {
+    display: flex;
+    width:600px;
+    height:430px;
+}
+
+.nav-image {
+    width:0px;
+    flex-grow:1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 5s ease;
+}
+
+.nav-image:hover {
+    cursor:crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
