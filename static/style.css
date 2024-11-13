@@ -301,55 +301,52 @@ footer a:hover {
 }
 
 .imagen-pago:hover {
-    opacity:0.8;
+    opacity: 0.8;
 }
 
 .container-pay {
-    display:flex; 
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten cuando no hay suficiente espacio */
+    justify-content: center; /* Centra los elementos dentro del contenedor */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 20px;
 }
 
 .container-pay-single {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 30px;
-    margin: 30px;
+    padding: 20px;
+    margin: 10px; /* Reducido el margen para que haya más espacio en pantallas pequeñas */
     text-align: center;
-    border: solid black 0px;
     border-radius: 30px;
     background-color: white;
     transition: background-color 0.2s ease;
+    flex: 1 1 calc(33.33% - 20px); /* Se ajusta para que ocupen un tercio del espacio disponible en pantallas grandes */
+    max-width: 200px; /* Límite del tamaño para evitar que las imágenes se agranden demasiado */
+    overflow: visible; /* Asegura que el box-shadow sea visible */
 }
 
-.container-pay-single:hover {
-    background-color: rgb(227, 227, 227);
-}
-
-.container-pay-single img {
-    max-width: 100%;
-    height: auto;
-}
-
+/* Aseguramos que el shadow sea visible en móviles */
 @media screen and (max-width: 768px) {
     .container-pay {
-        flex-direction: column;
+        flex-direction: column; /* Los elementos se apilan verticalmente */
         align-items: center;
     }
 
     .container-pay-single {
-        flex: 1 1 80%;
-        max-width: 300px;
+        flex: 1 1 80%; /* Ocupa el 80% del ancho disponible en pantallas pequeñas */
+        max-width: 300px; /* Límite de tamaño */
+        margin: 10px; /* Añadimos espacio entre elementos en pantallas pequeñas */
     }
 }
 
+/* Media Query para pantallas aún más pequeñas (por ejemplo, móviles) */
 @media screen and (max-width: 480px) {
-    .container-pay {
-        flex-direction: column;
-        align-items: center;
-    }
     .container-pay-single {
-        flex: 1 1 90%;
-        max-width: 250px; 
+        flex: 1 1 90%; /* Ocupa el 90% del ancho disponible */
+        max-width: 250px; /* Limita aún más el tamaño */
+        margin: 10px; /* Espacio entre los elementos */
     }
 }
