@@ -312,6 +312,11 @@ footer a:hover {
     padding: 20px;
 }
 
+.pay-text {
+    text-align: center;
+    font-size: 1rem;
+}
+
 .container-pay-single {
     display: flex;
     justify-content: center;
@@ -328,25 +333,31 @@ footer a:hover {
     overflow: visible; /* Asegura que el box-shadow sea visible */
 }
 
-/* Aseguramos que el shadow sea visible en móviles */
 @media screen and (max-width: 768px) {
+
+    .pay-text {
+        font-size: 0.5rem;
+    }
+    
     .container-pay {
-        flex-direction: column; /* Los elementos se apilan verticalmente */
+        flex-direction: column;
         align-items: center;
     }
 
     .container-pay-single {
-        flex: 1 1 80%; /* Ocupa el 80% del ancho disponible en pantallas pequeñas */
-        max-width: 300px; /* Límite de tamaño */
-        margin: 10px; /* Añadimos espacio entre elementos en pantallas pequeñas */
+        flex: 1 1 80%;
+        max-width: 300px;
     }
 }
 
-/* Media Query para pantallas aún más pequeñas (por ejemplo, móviles) */
 @media screen and (max-width: 480px) {
+
+    .pay-text {
+        font-size: 0.5rem;
+    }
+
     .container-pay-single {
-        flex: 1 1 90%; /* Ocupa el 90% del ancho disponible */
-        max-width: 250px; /* Limita aún más el tamaño */
-        margin: 10px; /* Espacio entre los elementos */
+        flex: 1 1 90%;
+        max-width: 250px; 
     }
 }
