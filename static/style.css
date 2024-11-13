@@ -312,11 +312,6 @@ footer a:hover {
     padding: 20px;
 }
 
-.pay-text {
-    text-align: center;
-    font-size: 1rem;
-}
-
 .container-pay-single {
     display: flex;
     justify-content: center;
