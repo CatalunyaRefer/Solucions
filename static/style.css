@@ -293,3 +293,59 @@ footer a:hover {
 .social-icon:hover {
     color: #fff1c5;
 }
+
+.imagen-pago {
+    opacity: 1;
+    transition: 0.3s ease;
+    mix-blend-mode: multiply;
+}
+
+.imagen-pago:hover {
+    opacity:0.8;
+}
+
+.container-pay {
+    display:flex; 
+}
+
+.container-pay-single {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    border: solid black 0px;
+    border-radius: 30px;
+    background-color: white;
+    transition: background-color 0.2s ease;
+}
+
+.container-pay-single:hover {
+    background-color: rgb(227, 227, 227);
+}
+
+.container-pay-single img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container-pay {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-pay-single {
+        flex: 1 1 80%;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container-pay-single {
+        flex: 1 1 90%;
+        max-width: 250px; 
+    }
+}
