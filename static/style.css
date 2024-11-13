@@ -344,6 +344,10 @@ footer a:hover {
 }
 
 @media screen and (max-width: 480px) {
+    .container-pay {
+        flex-direction: column;
+        align-items: center;
+    }
     .container-pay-single {
         flex: 1 1 90%;
         max-width: 250px; 
