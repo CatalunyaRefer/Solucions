@@ -314,18 +314,21 @@ footer a:hover {
 
 .container-pay-single {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
+    align-items: center; 
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 20px;
-    margin: 10px; /* Reducido el margen para que haya más espacio en pantallas pequeñas */
+    padding: 30px;
+    margin: 30px;
     text-align: center;
+    border: solid black 0px;
     border-radius: 30px;
     background-color: white;
     transition: background-color 0.2s ease;
-    flex: 1 1 calc(33.33% - 20px); /* Se ajusta para que ocupen un tercio del espacio disponible en pantallas grandes */
-    max-width: 200px; /* Límite del tamaño para evitar que las imágenes se agranden demasiado */
-    overflow: visible; /* Asegura que el box-shadow sea visible */
+    overflow: hidden    ;
+}
+
+.container-pay-single:hover {
+    background-color: rgb(227, 227, 227);
 }
 
 /* Aseguramos que el shadow sea visible en móviles */
