@@ -334,10 +334,6 @@ footer a:hover {
 }
 
 @media screen and (max-width: 768px) {
-
-    .pay-text {
-        font-size: 0.5rem;
-    }
     
     .container-pay {
         flex-direction: column;
@@ -351,10 +347,6 @@ footer a:hover {
 }
 
 @media screen and (max-width: 480px) {
-
-    .pay-text {
-        font-size: 0.5rem;
-    }
 
     .container-pay-single {
         flex: 1 1 90%;
