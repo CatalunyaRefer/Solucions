@@ -1,4 +1,4 @@
-# README - Guía para editar el Programa Electoral "Solucions" en Sitges
+# README - Guía para editar el Programa Electoral "Solucions"
 
 Este repositorio contiene el código de la página web del programa electoral del partido **"Solucions"** en Sitges. Este documento te guiará sobre cómo puedes **editar el contenido de la página web** para actualizar información como textos, imágenes y enlaces.
 
