@@ -9,7 +9,7 @@ Este proyecto está basado en HTML, CSS y JavaScript. Si quieres actualizar el c
 El archivo principal que controla el contenido visible en la página web es **`index.html`**. En este archivo se encuentran los textos, imágenes, y enlaces que puedes personalizar.
 
 ### Archivos principales del proyecto:
-1. **`index.html`**: Este es el archivo principal donde se encuentra el contenido de la página (textos, enlaces, imágenes, etc.).
+1. **`index.html y /templates`**: Estos son los archivos principales donde se encuentra el contenido de la página (textos, enlaces, imágenes, etc.).
 2. **`/static/style.css`**: Contiene los estilos visuales de la página, como los colores y el diseño.
 3. **`/static/img/`**: Carpeta con las imágenes utilizadas en el sitio web.
 
