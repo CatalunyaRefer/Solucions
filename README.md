@@ -6,7 +6,7 @@ Este repositorio contiene el código de la página web del programa electoral de
 
 Este proyecto está basado en HTML, CSS y JavaScript. Si quieres actualizar el contenido de la página, no necesitas saber programar, pero sí necesitarás saber cómo editar un archivo de texto (en este caso, el archivo HTML).
 
-Los archivos que controlan el contenido visible en la página web son aquellos cuya extension es **.html**, como el archivo **`index.html`** o el contenido de la carpeta **/templates**. En este archivo se encuentran los textos, imágenes, y enlaces que puedes personalizar.
+Los archivos que controlan el contenido visible en la página web son aquellos cuya extension es **`.html`**, como el archivo **`index.html`** o el contenido de la carpeta **/templates**. En este archivo se encuentran los textos, imágenes, y enlaces que puedes personalizar.
 
 ### Archivos principales del proyecto:
 1. **`index.html y /templates`**: Estos son los archivos principales donde se encuentra el contenido de la página (textos, enlaces, imágenes, etc.).
