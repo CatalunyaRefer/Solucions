@@ -20,7 +20,7 @@ El archivo principal que controla el contenido visible en la página web es **`i
 La mayor parte del contenido en la página web está en **texto** (como el título, las secciones del programa electoral, la descripción del candidato, etc.).
 
 - **¿Dónde está el contenido?**
-    - El contenido está en el archivo `index.html`. Cada bloque de texto importante está rodeado por etiquetas `<p>`, `<h1>`, `<h2>`, etc.
+    - El contenido está en el archivo `index.html` y en los archivos de la carpeta /templates. Cada bloque de texto importante está rodeado por etiquetas `<p>`, `<h1>`, `<h2>`, etc.
     - Ejemplo: Si quieres cambiar el título que aparece en la parte superior, busca este bloque:
 
     ```html
