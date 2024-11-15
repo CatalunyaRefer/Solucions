@@ -6,7 +6,7 @@ Este repositorio contiene el código de la página web del programa electoral de
 
 Este proyecto está basado en HTML, CSS y JavaScript. Si quieres actualizar el contenido de la página, no necesitas saber programar, pero sí necesitarás saber cómo editar un archivo de texto (en este caso, el archivo HTML).
 
-El archivo principal que controla el contenido visible en la página web es **`index.html`**. En este archivo se encuentran los textos, imágenes, y enlaces que puedes personalizar.
+Los archivos que controlan el contenido visible en la página web son aquellos cuya extension es **.html**, como el archivo **`index.html`** o el contenido de la carpeta **/templates**. En este archivo se encuentran los textos, imágenes, y enlaces que puedes personalizar.
 
 ### Archivos principales del proyecto:
 1. **`index.html y /templates`**: Estos son los archivos principales donde se encuentra el contenido de la página (textos, enlaces, imágenes, etc.).
@@ -20,7 +20,7 @@ El archivo principal que controla el contenido visible en la página web es **`i
 La mayor parte del contenido en la página web está en **texto** (como el título, las secciones del programa electoral, la descripción del candidato, etc.).
 
 - **¿Dónde está el contenido?**
-    - El contenido está en el archivo `index.html` y en los archivos de la carpeta /templates. Cada bloque de texto importante está rodeado por etiquetas `<p>`, `<h1>`, `<h2>`, etc.
+    - El contenido está en el archivo `index.html` y en los archivos de la carpeta `/templates`. Cada bloque de texto importante está rodeado por etiquetas `<p>`, `<h1>`, `<h2>`, etc.
     - Ejemplo: Si quieres cambiar el título que aparece en la parte superior, busca este bloque:
 
     ```html
