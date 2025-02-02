@@ -353,3 +353,19 @@ footer a:hover {
         margin: 10px; /* Espacio entre los elementos */
     }
 }
+
+.langSelector {
+    background-color: rgb(247, 247, 247);
+    border:solid black;
+    border:0px;
+    padding:3px;
+    margin-top: 7px;
+    margin-left:4px;
+    border-radius: 7px;
+    box-shadow: black;
+    color:gray;
+}
+
+.langSelector:hover {
+    color:rgb(27, 27, 27);
+}

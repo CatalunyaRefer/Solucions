@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOLUCIONS - Programa Electoral</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/Solucions/static/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
-    <link rel="icon" href="/static/img/logoSolucions.webp" type="image/x-icon">
+    <link rel="icon" href="/Solucions/static/img/logoSolucions.webp" type="image/x-icon">
 </head>
 <header> 
     <nav class="navbar navbar-expand-lg navbar-light" >
@@ -21,19 +20,26 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Sitges</a>
+                        <a class="nav-link" href="#">Sitges</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="templates/vilanova.html">Vilanova i la Geltrú</a>
+                        <a class="nav-link" href="templates/es/vilanova.html">Vilanova i la Geltrú</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="templates/santpere.html">Sant Pere de Ribes/Les Roquetes</a>
+                        <a class="nav-link" href="templates/es/santpere.html">Sant Pere de Ribes/Les Roquetes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="templates/canyelles.html">Canyelles</a>
+                        <a class="nav-link" href="templates/es/canyelles.html">Canyelles</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="templates/olivella.html">Olivella</a>
+                        <a class="nav-link" href="templates/es/olivella.html">Olivella</a>
+                    </li>
+                    <li class="nav-item">
+                        <select class="langSelector" onchange="window.location.href=this.value;">
+                            <option value="#">ES</option>
+                            <option value="en_index.html">EN</option>
+                            <option value="ca_index.html">CA</option>
+                        </select>
                     </li>
                 </ul>
             </div>
@@ -46,7 +52,7 @@
             <h2>Sitges</h2>
         </div>
         <div class="logo-container">
-            <img src="/static/img/logoSolucions.webp" alt="Logo">
+            <img src="static/img/logoSolucions.webp" alt="Logo">
         </div>
     </div>
 </header>
@@ -61,16 +67,16 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="/static/img/foto1.webp" class="d-inline" alt="Imagen 1" style="max-width: 100%; height: auto;">
+            <img src="static/img/foto1.webp" class="d-inline" alt="Imagen 1" style="max-width: 100%; height: auto;">
         </div>
         <div class="carousel-item">
-            <img src="/static/img/foto2.webp" class="d-inline" alt="Imagen 2" style="max-width: 100%; height: auto;">
+            <img src="static/img/foto2.webp" class="d-inline" alt="Imagen 2" style="max-width: 100%; height: auto;">
         </div>
         <div class="carousel-item">
-            <img src="/static/img/foto3.webp" class="d-inline" alt="Imagen 3" style="max-width: 100%; height: auto;">
+            <img src="static/img/foto3.webp" class="d-inline" alt="Imagen 3" style="max-width: 100%; height: auto;">
         </div>
         <div class="carousel-item">
-            <img src="/static/img/foto4.webp" class="d-inline" alt="Imagen 4" style="max-width: 100%; height: auto;">
+            <img src="static/img/foto4.webp" class="d-inline" alt="Imagen 4" style="max-width: 100%; height: auto;">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -89,7 +95,7 @@
 <div class="icon-section">
     <div class="icon-box">
         <div class="logo-container">
-            <img src="/static/img/seguridad.png" alt="Icono Seguridad">
+            <img src="static/img/seguridad.png" alt="Icono Seguridad">
         </div>
         <h4>SOLUCIONS EN LOS SERVICIOS Y LA SEGURIDAD</h4><br>
         <p><strong>Sitges limpio:</strong> Se duplicará el presupuesto en jardinería, limpieza de vía pública y playas.</p>
@@ -100,7 +106,7 @@
 
     <div class="icon-box">
         <div class="logo-container">
-            <img src="/static/img/sostenibilitat.png" alt="Icono Sostenibilidad">
+            <img src="static/img/sostenibilitat.png" alt="Icono Sostenibilidad">
         </div>
         <h4>SOLUCIONS EN LA SOSTENIBILIDAD</h4>
         <p><strong>Sitges ECO:</strong> Crearemos puntos de recarga para vehículos en todos los barrios. Impuesto gratuito para todos los vehículos eléctricos. IBI gratuito en las viviendas con energías renovables. Transporte público gratuito.</p>
@@ -112,7 +118,7 @@
 
     <div class="icon-box">
         <div class="logo-container">
-            <img src="/static/img/turismo.png" alt="Icono Turismo">
+            <img src="static/img/turismo.png" alt="Icono Turismo">
         </div>
         <h4>SOLUCIONS EN EL TURISMO Y EL COMERCIO</h4>
         <p><strong>Sitges recuperando turismo y comercio de calidad:</strong> Triplicamos los recursos técnicos municipales para atraer eventos de calidad y nuevo turismo todas las semanas del año como motor económico del municipio, así como un nuevo Business Centre HUB macro-vivero de empresas para start-ups.</p>
@@ -123,7 +129,7 @@
 
     <div class="icon-box">
         <div class="logo-container">
-            <img src="/static/img/empleo.png" alt="Icono Empleo">
+            <img src="static/img/empleo.png" alt="Icono Empleo">
         </div>
         <h4>SOLUCIONS EN EL EMPLEO Y LA ASISTENCIA SOCIAL</h4>
         <p><strong>Sitges por más empleo y ayudas sociales:</strong> Triplicará la oferta de empleo local, planes de ocupación y ayudas sociales para los empadronados en nuestro municipio.</p>
@@ -134,7 +140,7 @@
 
     <div class="icon-box">
         <div class="logo-container">
-            <img src="/static/img/vivienda.png" alt="Icono Infraestructuras">
+            <img src="static/img/vivienda.png" alt="Icono Infraestructuras">
         </div>
         <h4>SOLUCIONS EN LAS INFRAESTRUCTURAS, EL DEPORTE, LA VIVIENDA Y LA CULTURA</h4>
         <p><strong>Sitges con parking gratuito:</strong> Construcción de un macro parking gratuito con 3.000 plazas. Mantendremos la gratuidad de la zona azul en el Barrio del Oasis.</p>
@@ -147,7 +153,7 @@
         <h4>SOBRE NUESTRO CANDIDATO</h4>
         <p>Fernando Llombart, candidato a alcalde de Sitges, es un líder comprometido con el futuro de nuestra villa. Con amplia experiencia y un profundo conocimiento de los retos locales, propone un Sitges más sostenible, inclusivo y próspero. Su visión y cercanía lo convierten en la mejor opción para guiar a nuestra comunidad hacia un futuro mejor.</p>
         <div class="foto-candidato">
-            <img src="/static/img/fotoSolucions.webp" alt="fotoCandidatura">
+            <img src="static/img/fotoSolucions.webp" alt="fotoCandidatura">
         </div>
     </div>
 </div>
@@ -157,12 +163,12 @@
         <div class="row">
         <div class="col-12 col-md-6 mb-4 mb-md-0">
             <nav>
-                <a href="/templates/about.html" class="mx-3">Sobre nosotros</a>
+                <a href="/templates/es/about.html" class="mx-3">Sobre nosotros</a>
                 <!--ABRIR MAIL EN LA APP-->
                 <a href="mailto:info@solucions.org">Contacto</a>
                 <!--ABRIR MAIL EN EL NAVEGADOR-->
                 <!--<a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=info@solucions.org" target="_blank">Contactanos</a>-->
-                <a href="/templates/donations.html" class="mx-3">Donaciones</a>
+                <a href="/templates/es/donations.html" class="mx-3">Donaciones</a>
             </nav>
         </div>
 

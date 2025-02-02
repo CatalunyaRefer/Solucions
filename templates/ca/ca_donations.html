@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLUCIONS - Programa Electoral</title>
+    <link rel="stylesheet" href="../../static/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="../../static/img/logoSolucions.webp" type="image/x-icon">
+</head>
+<header> 
+    <nav class="navbar navbar-expand-lg navbar-light" >
+        <div class="container">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../ca_index.html">Sitges</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ca_vilanova.html">Vilanova i la Geltrú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ca_santpere.html">Sant Pere de Ribes/Les Roquetes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ca_canyelles.html">Canyelles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ca_olivella.html">Olivella</a>
+                    </li>
+                    <li class="nav-item">
+                        <select class="langSelector" onchange="window.location.href=this.value;">
+                            <option value="#">CA</option>
+                            <option value="../es/donations.html">ES</option>
+                            <option value="../en/en_donations.html">EN</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="header-content">
+        <div class="text-container">
+            <h1>SOLUCIONS</h1>
+            <h2>El Partit de Tots</h2>
+        </div>
+        <div class="logo-container">
+            <img src="../../static/img/logoSolucions.webp" alt="Logo">
+        </div>
+    </div>
+</header>
+<body>
+    <br>
+    <h1>DONACIONS</h1>
+    <br>
+    <p style="text-align: center;">Pots fer una donació per ajudar-nos i seguir endavant amb Solucions.</p>
+    <p style="text-align: center;">Fes clic al teu mètode de pagament preferit o envia'ns un bizum al número de telèfon especificat. 
+
+    <br>
+    <div class="container-pay">
+        <div class="container-pay-single">
+            <a href= "https://www.paypal.com/ncp/payment/3MNSAP2LJQSN2">
+                <img class="imagen-pago" style="width: 200px;" src="../../static/img/Paypal.png" alt="Paypal">
+            </a>
+        </div>
+        <div class="container-pay-single">
+            <a href="https://www.paypal.com/ncp/payment/3MNSAP2LJQSN2">
+                <img class="imagen-pago" style="width: 200px;" src="../../static/img/visa.jpg" alt="visa">
+            </a>
+        </div>
+        <div class="container-pay-single">
+            <img class="imagen-pago" style="width: 200px;" src="../../static/img/Bizum.png" alt="Bizum">
+        </div>
+    </div>
+    
+<footer class="footer text-center">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-12 col-md-6 mb-4 mb-md-0">
+                <nav>
+                    <a href="ca_about.html" class="mx-3">Sobre nosaltres</a>
+                    <!--ABRIR MAIL EN LA APP-->
+                    <a href="mailto:info@solucions.org">Contacte</a>
+                    <!--ABRIR MAIL EN EL NAVEGADOR-->
+                    <!--<a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=info@solucions.org" target="_blank">Contactanos</a>-->
+                    <a href="#" class="mx-3">Donacions</a>
+                </nav>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="d-flex justify-content-center">
+                    <a href="https://x.com/solucions_org" target="_blank" class="social-icon mx-2" title="X">
+                        <i class="fab fa-x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/solucions_org" target="_blank" class="social-icon mx-2" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/solucionselpartitdetots" target="_blank" class="social-icon mx-2" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const iconSection = document.querySelector('.icon-section');
+        const iconBoxes = document.querySelectorAll('.icon-box');
+
+        if (iconBoxes.length % 2 !== 0) {
+            iconSection.classList.add('odd');
+        }
+    });
+</script>
+
+
+</body>
+</html>

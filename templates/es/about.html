@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOLUCIONS - Programa Electoral</title>
-    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../../static/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="icon" href="/static/img/logoSolucions.webp" type="image/x-icon">
@@ -34,6 +34,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="olivella.html">Olivella</a>
                     </li>
+                    <li class="nav-item">
+                        <select class="langSelector" onchange="window.location.href=this.value;">
+                            <option value="#">ES</option>
+                            <option value="../en/en_about.html">EN</option>
+                            <option value="../ca/ca_about.html">CA</option>
+                        </select>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -45,7 +52,7 @@
             <h2>Sitges</h2>
         </div>
         <div class="logo-container">
-            <img src="/static/img/logoSolucions.webp" alt="Logo">
+            <img src="../../static/img/logoSolucions.webp" alt="Logo">
         </div>
     </div>
 </header>
@@ -59,12 +66,12 @@
             
             <div class="col-12 col-md-6 mb-4 mb-md-0">
                 <nav>
-                    <a href="/templates/about.html" class="mx-3">Sobre nosotros</a>
+                    <a href="#" class="mx-3">Sobre nosotros</a>
                     <!--ABRIR MAIL EN LA APP-->
                     <a href="mailto:info@solucions.org">Contacto</a>
                     <!--ABRIR MAIL EN EL NAVEGADOR-->
                     <!--<a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=info@solucions.org" target="_blank">Contactanos</a>-->
-                    <a href="/templates/donations.html" class="mx-3">Donaciones</a>
+                    <a href="donations.html" class="mx-3">Donaciones</a>
                 </nav>
             </div>
 
